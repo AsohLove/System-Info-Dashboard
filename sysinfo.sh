@@ -15,8 +15,12 @@ total_disk=$(df -h / | tail -1 | awk '{print $2}')
 used_disk=$(df -h / | tail -1 | awk '{print $3}')
 free_disk=$(df -h / | tail -1 | awk '{print $4}')
 
+process=$(ps aux | sort -nk 4 | head -5)
 
-echo "User: $current_user : $host_name "
+
+#cpu_mod=$(grep "model name" /proc/cpuinfo | head -1 | awk -F: '{print $4}')
+
+echo "User: $current_user Hostname: $host_name "
 echo "Date: $current_date "
 
 echo "   --- Uptime ---- "
@@ -30,8 +34,6 @@ echo "Total: $total_disk | Used: $used_disk | Free: $free_disk "
 
 
 echo " ----- Processes Running: ----- "
-
-
-
+echo -e "Top five running processes: \n$process"
 
 
