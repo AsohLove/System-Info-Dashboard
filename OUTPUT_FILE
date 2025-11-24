@@ -1,0 +1,17 @@
+  ===== SYSTEM INFO =====    
+User: love Hostname: RedLove 
+Date: Mon 24 Nov 2025 03:35:43 PM WAT 
+   --- Uptime ---- 
+Uptime: up 17 hours, 53 minutes 
+   ----- Memory (MB) ----- 
+Total: 15363 | Used: 9034 | Free: 875 
+ ----- Disk Usage----- 
+Total: 233G | Used: 25G | Free: 197G 
+ ----- Processes Running: ----- 
+Total current running processes: 397 Top five running processes: 
+USER PID %CPU %MEM VSZ
+love 3971 9.2 5.3 13690464
+love 57732 20.7 4.7 4279220
+love 4760 0.6 4.5 4341556
+love 4772 0.7 3.8 4194292
+love 5100 1.7 3.8 4252660 
