@@ -2,6 +2,7 @@
 A dashboard that displays the system information such as *memory, disk, processes* of a machine.
 
 ## Project Description
+
 Used bash commands such as `free`, `grep`, `awk`(shown below) to extract information about a system.
 ```bash
 
@@ -20,10 +21,13 @@ Used bash commands such as `free`, `grep`, `awk`(shown below) to extract informa
 ```
 
 ## About
-This project is built by with *bash commands* and to be able to execute this program you can a local copy by cloning [this repository](https://github.com/AsohLove/System-Info-Dashboard.git) with a terminal or command-line, navigate to the parent directory and then run the program with `./sysinfo.sh`  
+This project is built with *bash commands* and to be able to execute this program you can get a local copy by cloning [this repository](https://github.com/AsohLove/System-Info-Dashboard.git) with a terminal or command-line, navigate to the parent directory and then run the program with `./sysinfo.sh`  
+
 
 **Sample dashboard from running the program**
+
 ![Info Dashboard](/screenshots/Dash.png)
+
 
 ## Author
 
